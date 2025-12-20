@@ -11,6 +11,7 @@ spec:
       labels:
         app: myapp
     spec:
+      rerplicas: 2
       containers:
       - name: myapp
         image: nginx
