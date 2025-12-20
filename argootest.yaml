@@ -11,6 +11,10 @@ spec:
       labels:
         app: myapp
     spec:
+      syncPolicy:
+      automated:
+      prune: true
+      selfHeal: true
       rerplicas: 4
       containers:
       - name: myapp
